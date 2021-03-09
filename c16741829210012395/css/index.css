@@ -1,0 +1,978 @@
+body {
+  max-width: 100vw;
+}.mod {
+  width: 100vw;
+  height: 292.53vw;
+}
+.mod .box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 292.53vw;
+  overflow: hidden;
+}
+.mod .city_select_and_search {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+}
+.mod .back {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2.13vw;
+}
+.mod .icon-leftWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 11.73vw;
+  height: 11.73vw;
+}
+.mod .icon-left {
+  width: 6.4vw;
+  height: 6.4vw;
+}
+.mod .block {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 16px;
+  background-color: #F2F3F7;
+  width: 84.8vw;
+  height: 8.53vw;
+}
+.mod .city_select {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -0.27vw;
+  margin-right: 5.6vw;
+  margin-left: 3.47vw;
+  height: 4.53vw;
+}
+.mod .location {
+  margin-right: 1.07vw;
+  line-height: 3.2vw;
+  color: #0086f6;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .icon {
+  margin-top: 0.53vw;
+  width: 2.13vw;
+  height: 1.33vw;
+}
+.mod .search {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mod .icon_1 {
+  margin-right: 0.8vw;
+  width: 4.8vw;
+  height: 4.8vw;
+}
+.mod .organization {
+  margin-top: -0.27vw;
+  line-height: 3.2vw;
+  color: #8d8e8f;
+  font-size: 3.2vw;
+  font-weight: 400;
+  
+}
+.mod .navlist {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  height: 20.8vw;
+}
+.mod .block_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -0.53vw;
+  width: 100vw;
+}
+.mod .block_2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 91.47vw;
+  height: 20.27vw;
+}
+.mod .nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.53vw;
+  height: 20.8vw;
+}
+.mod .outer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -0.27vw;
+  width: 18.13vw;
+  height: 20.53vw;
+}
+.mod .largeIcon {
+  position: relative;
+  width: 16.53vw;
+  height: 16.53vw;
+}
+.mod .text {
+  position: relative;
+  margin-top: -0.27vw;
+  max-width: 14.93vw;
+  height: 4.53vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 4.53vw;
+  color: #333333;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .submain {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/img_71667_3_1.png);
+  width: 100vw;
+  background-size: contain;
+}
+.mod .block_3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 6.67vw;
+}
+.mod .infoWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 1.6vw;
+  background-image: url(../images/img_71667_3_2.png);
+  width: 47.73vw;
+  height: 6.67vw;
+  background-size: contain;
+}
+.mod .info {
+  margin-top: -0.27vw;
+  max-width: 47.73vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 5.33vw;
+  color: #333333;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 5.33vw;
+  font-weight: 600;
+}
+.mod .block_4 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -0.27vw;
+  margin-right: 1.07vw;
+  background-image: url(../images/img_71667_3_3.png);
+  width: 40vw;
+  height: 4.8vw;
+  background-size: contain;
+}
+.mod .word {
+  position: relative;
+  margin-top: 0.53vw;
+  margin-right: 4vw;
+  margin-left: 18.67vw;
+  line-height: 3.73vw;
+  color: #666666;
+  font-size: 3.73vw;
+  font-weight: 400;
+}
+.mod .num {
+  position: absolute;
+  right: 1.6vw;
+  bottom: 0vw;
+  line-height: 4.53vw;
+  color: #666666;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 3.73vw;
+  font-weight: 400;
+}
+.mod .txt {
+  position: relative;
+  margin-top: 0.27vw;
+  line-height: 3.73vw;
+  color: #666666;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 3.73vw;
+  font-weight: 400;
+}
+.mod .icon-right {
+  margin-top: -0.27vw;
+  width: 4.27vw;
+  height: 4.27vw;
+}
+.mod .block_5 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1.87vw;
+  background-image: url(../images/img_71667_3_4.png);
+  width: 93.6vw;
+  height: 6.4vw;
+  background-size: contain;
+}
+.mod .bg {
+  position: absolute;
+  top: 1.33vw;
+  left: 3.2vw;
+  width: 84.8vw;
+  height: 4vw;
+}
+.mod .group {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.8vw;
+  border-radius: 9.5px;
+  background-image: linear-gradient(90deg, #EEEEEE 0%, #FFFFFF 100%);
+  width: 77.87vw;
+  height: 5.07vw;
+}
+.mod .block_6 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.53vw;
+  margin-right: 12vw;
+  margin-left: 3.2vw;
+  height: 5.6vw;
+}
+.mod .nickName {
+  margin-right: 0.27vw;
+  line-height: 5.6vw;
+  color: #666666;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .nickNameNext {
+  margin-top: 1.33vw;
+  line-height: 3.2vw;
+  color: #666666;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .txt_1 {
+  margin-top: -1.33vw;
+  margin-right: 0.27vw;
+  line-height: 3.2vw;
+  color: #666666;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .word_1 {
+  margin-top: 1.33vw;
+  line-height: 3.2vw;
+  color: #666666;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .text_1 {
+  position: absolute;
+  top: 0vw;
+  right: 22.13vw;
+  line-height: 4.27vw;
+  color: #666666;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .txt_2 {
+  position: relative;
+  margin-top: 1.87vw;
+  line-height: 3.2vw;
+  color: #666666;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .word_2 {
+  position: absolute;
+  top: 0vw;
+  right: 6.4vw;
+  line-height: 4.27vw;
+  color: #666666;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .itemproduct {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4.53vw;
+  margin-left: 3.73vw;
+}
+.mod .itemproduct1 {
+  background-size: contain;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: url(../images/img_71667_3_5.png);
+  height: 48.53vw;
+  margin-right: 2.19vw;
+}
+.mod .largeIcon_1 {
+  position: absolute;
+  top: 31.73vw;
+  left: 0vw;
+  width: 21.07vw;
+  height: 4.27vw;
+}
+.mod .text_2 {
+  position: absolute;
+  top: 31.47vw;
+  left: 0vw;
+  line-height: 5.33vw;
+  color: #333333;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.mod .block_7 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mod .pic {
+  position: relative;
+  width: 29.07vw;
+  height: 29.07vw;
+  overflow: hidden;
+}
+.mod .dot {
+  position: absolute;
+  top: 13.33vw;
+  left: 13.33vw;
+  width: 0.27vw;
+  height: 0.27vw;
+}
+.mod .largeIcon_2 {
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  width: 14.67vw;
+  height: 4.27vw;
+  overflow: hidden;
+}
+.mod .group_1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2.67vw;
+  width: 29.07vw;
+  height: 4.27vw;
+}
+.mod .group_2 {
+  display: flex;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  align-items: center;
+  flex-direction: row;
+  background-image: url(../images/img_71667_3_8.png);
+  height: 4vw;
+  background-size: contain;
+}
+.mod .count {
+  margin-top: 0.27vw;
+  margin-left: 21.07vw;
+  line-height: 3.2vw;
+  color: #0086f6;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .word_3 {
+  margin-top: 0.27vw;
+  line-height: 3.2vw;
+  color: #0086f6;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .block_8 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1.33vw;
+  background-image: url(../images/img_71667_3_9.png);
+  width: 21.6vw;
+  height: 3.47vw;
+  background-size: contain;
+}
+.mod .text_3 {
+  margin-top: 0.27vw;
+  line-height: 2.93vw;
+  color: #999999;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .txt_3 {
+  margin-top: 0.27vw;
+  line-height: 2.93vw;
+  color: #999999;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .group_3 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 1.6vw;
+}
+.mod .container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 0.53vw;
+  background-image: url(../images/img_71667_3_6.png);
+  width: 8.8vw;
+  height: 4vw;
+  background-size: contain;
+}
+.mod .word_4 {
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
+  line-height: 4vw;
+  color: #666666;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .priceWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -0.27vw;
+  background-image: url(../images/img_71667_3_7.png);
+  width: 11.2vw;
+  background-size: contain;
+}
+.mod .yuan {
+  margin-top: 0.53vw;
+  line-height: 2.93vw;
+  color: #ff6600;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .price {
+  margin-top: 0.53vw;
+  line-height: 3.2vw;
+  color: #ff6600;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .word_5 {
+  position: absolute;
+  right: 7.47vw;
+  bottom: 1.87vw;
+  line-height: 4vw;
+  color: #666666;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .row1 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 4.27vw;
+  background-image: url(../images/img_71667_3_10.png);
+  width: 100vw;
+  height: 10.13vw;
+  background-size: contain;
+}
+.mod .benifit {
+  margin-top: 2.67vw;
+  margin-left: 4.27vw;
+  max-width: 91.47vw;
+  height: 6.93vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 6.93vw;
+  color: #222222;
+  font-size: 5.33vw;
+  font-weight: 400;
+}
+.mod .base_row2 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100vw;
+}
+.mod .row2 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 4.53vw;
+  margin-left: 3.73vw;
+  background-image: url(../images/img_71667_3_11.png);
+  height: 47.2vw;
+  background-size: contain;
+}
+.mod .block_9 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mod .entryPic {
+  position: relative;
+  width: 44.53vw;
+  height: 25.33vw;
+  overflow: hidden;
+}
+.mod .dot_1 {
+  position: absolute;
+  top: 13.33vw;
+  left: 13.33vw;
+  width: 0.27vw;
+  height: 0.27vw;
+}
+.mod .descWrap {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2.13vw;
+  background-image: url(../images/img_71667_3_12.png);
+  width: 44.53vw;
+  height: 9.6vw;
+  background-size: contain;
+}
+.mod .desc {
+  -webkit-box-orient: vertical;
+  display: -webkit-inline-box;
+  width: 42.93vw;
+  height: 10.13vw;
+  text-overflow: ellipsis;
+  font-size: 3.73vw;
+  -webkit-line-clamp: 2;
+  margin-top: 0.53vw;
+  overflow: hidden;
+  line-height: 5.07vw;
+  color: #333333;
+  font-weight: 400;
+}
+.mod .block_10 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2.13vw;
+  background-image: url(../images/img_71667_3_13.png);
+  background-size: contain;
+}
+.mod .num_1 {
+  margin-top: 0.27vw;
+  margin-right: 0.53vw;
+  line-height: 2.93vw;
+  color: #ff7700;
+  font-family: .SFNS-Regular, .AppleSystemUIFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .text_4 {
+  margin-top: 0.27vw;
+  line-height: 2.93vw;
+  color: #999999;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .main {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 4.53vw;
+  margin-left: 3.73vw;
+  width: 100vw;
+}
+.mod .block_11 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 5.6vw;
+
+  background-image: url(../images/img_71667_3_0.png);
+  padding-right: 4vw;
+  padding-left: 3.47vw;
+  height: 8vw;
+  background-size: contain;
+}
+.mod .block_11_click {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 5.6vw;
+  padding-right: 4vw;
+  padding-left: 3.47vw;
+  background-image: url(../images/img_71667_3_23.png);
+  height: 8vw;
+  background-size: contain;
+}
+.mod .block_11_click .txt_4 {
+  line-height: 3.73vw;
+  color: #ffffff;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.73vw;
+  font-weight: 500;
+}
+.mod .block_11 .txt_4 {
+  line-height: 3.73vw;
+  color: #222222;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.73vw;
+  font-weight: 500;
+}
+
+
+.mod .ft {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 2.07vw;
+  background-image: url(../images/img_71667_3_14.png);
+  height: 37.07vw;
+  background-size: contain;
+  border-bottom: 1px dotted #8d8e8f;
+}
+.mod .block_12 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4.575vw;
+}
+.mod .block_13 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: -0.8vw;
+  margin-right: 2.13vw;
+  background-image: url(../images/img_71667_3_19.png);
+  background-size: contain;
+}
+.mod .group_4 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-image: url(../images/img_71667_3_21.png);
+  width: 10.93vw;
+  height: 5.07vw;
+  background-size: contain;
+}
+.mod .text_5 {
+  margin-left: 1.07vw;
+  line-height: 2.93vw;
+  color: #ffffff;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .dot_2 {
+  position: relative;
+  margin-top: 8.27vw;
+  margin-left: 13.33vw;
+  width: 0.27vw;
+  height: 0.27vw;
+}
+.mod .txt_5 {
+  position: relative;
+  margin-top: 5.33vw;
+  margin-left: 25.6vw;
+  max-width: 24.27vw;
+  height: 6.13vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 6.13vw;
+  color: #ffffff;
+  font-family: MuktaMahee-Regular, Mukta Mahee;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.mod .addressWrap {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(../images/img_71667_3_22.png);
+  width: 30.67vw;
+  height: 5.6vw;
+  background-size: contain;
+}
+.mod .address {
+  margin-top: 0.53vw;
+  max-width: 27.47vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 2.93vw;
+  color: #ffffff;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .group_5 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mod .descWrap_1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-image: url(../images/img_71667_3_20.png);
+  width: 58.67vw;
+  height: 11.2vw;
+  background-size: contain;
+}
+.mod .desc_1 {
+  -webkit-box-orient: vertical;
+  display: -webkit-inline-box;
+  width: 55.47vw;
+  height: 11.2vw;
+  text-overflow: ellipsis;
+  color: #333333;
+  font-weight: 400;
+  -webkit-line-clamp: 2;
+  margin-top: 0.53vw;
+  overflow: hidden;
+  line-height: 5.6vw;
+  font-size: 4.27vw;
+}
+.mod .group_6 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.87vw;
+}
+.mod .icon_2 {
+  margin-right: 1.07vw;
+  width: 3.73vw;
+  height: 3.73vw;
+  overflow: hidden;
+}
+.mod .bg_1 {
+  width: 52.27vw;
+  height: 3.73vw;
+}
+.mod .txt_6 {
+  position: absolute;
+  top: 13.33vw;
+  left: 4.8vw;
+  line-height: 4.27vw;
+  color: #333333;
+  font-family: .AppleSimplifiedChineseFont;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .grid {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2.67vw;
+}
+.mod .col {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 0.8vw;
+  background-image: url(../images/img_71667_3_15.png);
+  width: 9.47vw;
+  height: 3.27vw;
+  background-size: contain;
+}
+.mod .word_6 {
+  position: absolute;
+  top: 0vw;
+  line-height: 3.27vw;
+  color: #0086f6;
+  font-size: 2.257vw;
+  font-weight: 400;
+}
+.mod .col_1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  background-image: url(../images/img_71667_3_16.png);
+  width: 9.47vw;
+  height: 3.27vw;
+  background-size: contain;
+}
+.mod .word_7 {
+  position: absolute;
+  top: 0vw;
+  right: 0.27vw;
+  line-height: 3.27vw;
+  color: #0086f6;
+  font-size: 2.257vw;
+  font-weight: 400;
+}
+.mod .block_14 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.67vw;
+  width: 58.67vw;
+}
+.mod .container_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.mod .normal_div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 2.4vw;
+  background-image: url(../images/img_71667_3_17.png);
+  width: 8vw;
+  height: 3.73vw;
+  background-size: contain;
+}
+.mod .num_2 {
+  margin-top: 0.27vw;
+  margin-right: 0.27vw;
+  line-height: 3.2vw;
+  color: #0086f6;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .word_8 {
+  margin-top: 0.27vw;
+  line-height: 3.2vw;
+  color: #0086f6;
+  font-size: 3.2vw;
+  font-weight: 400;
+}
+.mod .normal_div_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.27vw;
+  background-image: url(../images/img_71667_3_18.png);
+  width: 9.6vw;
+  height: 3.47vw;
+  background-size: contain;
+}
+.mod .text_6 {
+  margin-top: 0.27vw;
+  line-height: 2.93vw;
+  color: #666666;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .num_3 {
+  margin-top: 0.27vw;
+  line-height: 2.93vw;
+  color: #666666;
+  font-size: 2.93vw;
+  font-weight: 400;
+}
+.mod .moneyWrap {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-top: 0.27vw;
+  height: 5.6vw;
+}
+.mod .yuan_1 {
+  margin-right: -0.53vw;
+  margin-bottom: 0.53vw;
+  line-height: 3.2vw;
+  color: #ff6600;
+  font-size: 3.2vw;
+  font-weight: 500;
+}
+.mod .money {
+  margin-right: 0.53vw;
+  margin-bottom: 0.53vw;
+  line-height: 4.53vw;
+  color: #ff6600;
+  font-size: 4.53vw;
+  font-weight: 400;
+}
+.mod .txt_7 {
+  margin-bottom: 0.53vw;
+  line-height: 3.2vw;
+  color: #666666;
+  font-size: 3.2vw;
+  font-weight: 500;
+}
+.mod .bg_2 {
+  position: relative;
+  margin-top: 0.8vw;
+  width: 91.47vw;
+  height: 1.33vw;
+  overflow: hidden;
+}
+.mod .txtx {
+  margin-top: 3.34vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 4vw;
+  color: #0086f6;
+  font-size: 4vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
